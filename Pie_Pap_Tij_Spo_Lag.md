@@ -1,4 +1,3 @@
-
 ###Juego de Piedra, Papel, Tijeras, Spock y Lagarto
 
 ###Imprimimos un mensaje de Bienvenida
@@ -9,6 +8,7 @@ i = int(input("Ingresen cuantas veces desean jugar: "))
 
 ##Inicializamos la variable con la que vamos a comparar la variable i
 numero = 1
+###Variables para el ganador de la partida
 g1 = 0
 g2 = 0
 
@@ -89,11 +89,11 @@ while numero <= i:
     else:
         ###En caso de no cumplirse las condiciones se imprime lo siguiente
         print("Jugadores quedaron empate")
-### Comparamos si el contador g1 es mayo que g2 si se cumple la condición se imprime lo siguiente
+### Comparamos si el contador g1 es mayor que g2 si se cumple la condición se imprime lo siguiente
 if g1 > g2:
      print("Jugador 1 has ganado", g1 ,"veces la partida")
      print("Eres el ganador de la partida, el juego a terminado gracias")
-### Comparamos si el contador g2 es mayo que g1 si se cumple la condición se imprime lo siguiente
+### Comparamos si el contador g2 es mayor que g1 si se cumple la condición se imprime lo siguiente
 elif g2 > g1:
     print("Jugador 2 has ganado", g2 ,"veces la partida")
     print("Eres el ganador de la partida, el juego a terminado gracias")
