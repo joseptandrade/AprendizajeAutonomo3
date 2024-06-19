@@ -89,14 +89,16 @@ while numero <= i:
     else:
         ###En caso de no cumplirse las condiciones se imprime lo siguiente
         print("Jugadores quedaron empate")
-### Comparamos si el contador g1 es mayor que g2 si se cumple la condición se imprime lo siguiente
-if g1 > g2:
-     print("Jugador 1 has ganado", g1 ,"veces la partida")
-     print("Eres el ganador de la partida, el juego a terminado gracias")
-### Comparamos si el contador g2 es mayor que g1 si se cumple la condición se imprime lo siguiente
-elif g2 > g1:
-    print("Jugador 2 has ganado", g2 ,"veces la partida")
-    print("Eres el ganador de la partida, el juego a terminado gracias")
-###Caso contrario se imprime el empate 
-else:
+    ### Comparamos si el contador g1 es mayor que g2 si se cumple la condición se imprime lo siguiente
+    if g1 > g2:
+        print("Jugador 1 has ganado", g1 ,"veces la partida")
+        print("Eres el ganador de la partida, el juego a terminado gracias")
+    ### Comparamos si el contador g2 es mayor que g1 si se cumple la condición se imprime lo siguiente
+    elif g2 > g1:
+        print("Jugador 2 has ganado", g2 ,"veces la partida")
+        print("Eres el ganador de la partida, el juego a terminado gracias")
+    ###Caso contrario se imprime el empate 
+    else:
      print("Empataron la partida, el juego a terminado gracias")
+else:
+     print("El juego a terminado gracias")
