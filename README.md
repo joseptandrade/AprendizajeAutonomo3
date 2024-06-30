@@ -1,3 +1,6 @@
+Nombre: José Leandro Andrade Zalamea
+Fecha: 30/06/2024
+
 Mi proyecto es el Juego de Piedra, papel, tijeras, Spock y Lagarto.
 
 Para este juego necesitamos de dos jugadores los cuales deben ingresar cuantas veces van a jugar y luego de eso elegir las opciones planteadas en el juego Piedra, Papel, Tijeras, Spock o Lagarto dependiendo de lo que elijan el juego va a determinar quien gana, si eligen la misma indicara que es empate, también al finalizar el juego mostrara que jugador gana la partida indicando las veces que haya ganado de igual manera si ganan la misma cantidad de veces indicara que es un empate.
